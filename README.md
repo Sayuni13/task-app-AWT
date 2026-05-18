@@ -7,10 +7,10 @@ IT3063 - Advanced Web Technologies
 
 Group Members
 
-1. SMSD Randini - D/BIT/24/0015
-2. ARK Vidurusinghe - D/BIT/24/0037
-3. RSKS Rajasundara - D/BIT/24/0016
-4. KHTU Jayasekara - D/BIT/24/0019
+1. SMSD Randini 
+2. ARK Vidurusinghe 
+3. RSKS Rajasundara
+4. KHTU Jayasekara 
 
 
 Technologies Used
