@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4c1d95, #7c3aed, #ec4899);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 420px;
+    background: rgba(255,255,255,0.18);
+    padding: 35px;
+    border-radius: 28px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #ffd6f6;
+    font-weight: bold;
+}
+
+.tabs{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.tabs button{
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tabs button:hover{
+    background: #ec4899;
+}
+
+h2{
+    color: #ffd6f6;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    color: #ffd6f6;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.85);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.mainBtn, .logout{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainBtn{
+    background: linear-gradient(90deg, #ff3cac, #784ba0, #7f5af0);
+}
+
+.logout{
+    background: #ff3860;
+}
+
+.taskButtons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.smallBtn{
+    flex: 1;
+    padding: 13px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: rgba(255,255,255,0.9);
+    color: #7c3aed;
+}
+
+.clearBtn{
+    background: #ff3860;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.hidden{
+    display: none;
+}
+
+#message{
+    text-align: center;
+    color: #fff5a5;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#taskList{
+    list-style: none;
+    padding: 0;
+    margin-top: 18px;
+}
+
+#taskList li{
+    background: rgba(255,255,255,0.25);
+    color: white;
+    padding: 14px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
